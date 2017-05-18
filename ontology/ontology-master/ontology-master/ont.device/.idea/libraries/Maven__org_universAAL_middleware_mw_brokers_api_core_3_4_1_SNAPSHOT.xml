@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.universAAL.middleware:mw.brokers.api.core:3.4.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.brokers.api.core/3.4.1-SNAPSHOT/mw.brokers.api.core-3.4.1-20170331.220209-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.brokers.api.core/3.4.1-SNAPSHOT/mw.brokers.api.core-3.4.1-20170331.220209-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.brokers.api.core/3.4.1-SNAPSHOT/mw.brokers.api.core-3.4.1-20170331.220209-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

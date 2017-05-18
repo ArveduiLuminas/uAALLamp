@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.universAAL.middleware:mw.bus.junit:3.4.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.bus.junit/3.4.1-SNAPSHOT/mw.bus.junit-3.4.1-20170410.100244-7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.bus.junit/3.4.1-SNAPSHOT/mw.bus.junit-3.4.1-20170410.100244-7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.bus.junit/3.4.1-SNAPSHOT/mw.bus.junit-3.4.1-20170410.100244-7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

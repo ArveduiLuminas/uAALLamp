@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isen.firsttestaal.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.427"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="139dp"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="53dp" />
+
+        <TextView
+            android:id="@+id/Pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="je n'ai jamais été en pause!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="43dp"
+            android:layout_below="@+id/text"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/putON"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonPutON"
+            android:text="Put on"
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/Pause"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/putOFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/putON"
+            android:layout_marginTop="18dp"
+            android:onClick="onButtonPutOFF"
+            android:text="Put off"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="48dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

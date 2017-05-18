@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <permissions>
+        <mw.bus.service>
+
+
+        </mw.bus.service>
+        <mw.bus.context>
+            <advertisement>
+                <title> PUBLISHER PUBLISHER PUBLISHER </title>
+                <description> SERVICE PUBLISHER PROFILE : hear "getlamp" and write something </description>
+                <action> org.universaal.nativeandroid.forcerUAAL.PUT_ON </action>
+                <category> android.intent.category.DEFAULT </category>
+                <input>
+                    <key>var1</key>
+                    <value>lamp</value>
+                </input>
+                <input>
+                    <key>var2</key>
+                    <value>brightness</value>
+                </input>
+                <serialization>
+                    <![CDATA[
+                        @prefix ph: <http://ontology.universaal.org/PhThing.owl#> .
+                        @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+                        @prefix tst: <http://ontology.igd.fhg.de/LightingServer.owl#> .
+                        @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+                        @prefix light: <http://ontology.universaal.org/Lighting.owl#> .
+                        @prefix ctxt: <http://ontology.universAAL.org/Context.owl#> .
+                        @prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+                        <urn:org.universAAL.middleware.context.rdf:ContextEvent#_:c043cf9e99c148f8:be9> ctxt:hasProvider tst:LightServer ;
+                          a ctxt:ContextEvent ;
+                          rdf:subject tst:&var1;controlledLamp1&var1; ;
+                          ctxt:hasTimestamp "1384864157846"^^xsd:long ;
+                          rdf:predicate light:srcBrightness ;
+                          rdf:object "&var2;100&var2;"^^xsd:int .
+
+
+                        tst:&var1;controlledLamp1&var1; a light:LightSource ,
+                            ph:Device ,
+                            ph:PhysicalThing ;
+                          light:srcBrightness "&var2;100&var2;"^^xsd:int .
+                        ctxt:gauge a ctxt:ContextProviderType .
+
+                        tst:LightServer a ctxt:ContextProvider ;
+                          ctxt:hasType ctxt:gauge ;
+                          ctxt:myClassesOfEvents [
+                              a ctxt:ContextEventPattern ;
+                              <http://www.w3.org/2000/01/rdf-schema#subClassOf> [
+                                  a owl:Restriction ;
+                                  owl:allValuesFrom light:LightSource ;
+                                  owl:onProperty rdf:subject
+                                ]
+                            ] .
+                        ]]>
+                </serialization>
+            </advertisement>
+
+        </mw.bus.context>
+    </permissions>
+</application>

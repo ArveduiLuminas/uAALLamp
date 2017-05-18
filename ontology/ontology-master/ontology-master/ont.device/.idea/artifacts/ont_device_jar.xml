@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ont.device:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ont_device_jar</output-path>
+    <root id="archive" name="ont.device.jar">
+      <element id="module-output" name="ont.device" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.container.core/3.4.1-SNAPSHOT/mw.container.core-3.4.1-20170331.220029-1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.bus.service.core/3.4.1-SNAPSHOT/mw.bus.service.core-3.4.1-20170331.220242-4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jp/go/ipa/jgcl/1.0/jgcl-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.data.representation.core/3.4.1-SNAPSHOT/mw.data.representation.core-3.4.1-20170407.155511-7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.bus.model.core/3.4.1-SNAPSHOT/mw.bus.model.core-3.4.1-20170331.220233-4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/ontology/ont.unit/3.4.1-SNAPSHOT/ont.unit-3.4.1-20170511.160720-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/ontology/ont.phWorld/3.4.1-SNAPSHOT/ont.phWorld-3.4.1-20170511.160634-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/ontology/ont.measurement/3.4.1-SNAPSHOT/ont.measurement-3.4.1-20170511.160800-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.brokers.api.core/3.4.1-SNAPSHOT/mw.brokers.api.core-3.4.1-20170331.220209-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.managers.api.core/3.4.1-SNAPSHOT/mw.managers.api.core-3.4.1-20170331.220215-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.schemas/3.4.1-SNAPSHOT/mw.schemas-3.4.1-20170331.220040-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.connectors.api.core/3.4.1-SNAPSHOT/mw.connectors.api.core-3.4.1-20170331.220207-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.container.junit/3.4.1-SNAPSHOT/mw.container.junit-3.4.1-20170410.091800-4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.interfaces.core/3.4.1-SNAPSHOT/mw.interfaces.core-3.4.1-20170331.220203-3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/universAAL/middleware/mw.modules.api.core/3.4.1-SNAPSHOT/mw.modules.api.core-3.4.1-20170331.220211-3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

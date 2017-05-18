@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.universAAL.ontology:ont.unit:3.4.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/ontology/ont.unit/3.4.1-SNAPSHOT/ont.unit-3.4.1-20170511.160720-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/ontology/ont.unit/3.4.1-SNAPSHOT/ont.unit-3.4.1-20170511.160720-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/universAAL/ontology/ont.unit/3.4.1-SNAPSHOT/ont.unit-3.4.1-20170511.160720-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
