@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BLETester.iml" filepath="$PROJECT_DIR$/BLETester.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Receveur-controleur.iml" filepath="$PROJECT_DIR$/Receveur-controleur.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

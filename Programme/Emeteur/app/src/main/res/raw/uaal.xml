@@ -25,7 +25,7 @@
                         @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
                         @prefix tst: <http://ontology.igd.fhg.de/LightingServer.owl#> .
                         @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-                        @prefix light: <http://ontology.universaal.org/Lighting.owl#> .
+                        @prefix light: <http://ontology.universaal.org/Device.owl#> .
                         @prefix ctxt: <http://ontology.universAAL.org/Context.owl#> .
                         @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
